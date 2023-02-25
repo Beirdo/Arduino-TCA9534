@@ -10,7 +10,7 @@
 ******************************************************************************/
 
 #include <Wire.h>
-#include "SparkFun_TCA9534.h"
+#include "TCA9534-GPIO.h"
 /* I2C Command Byte Defines  */
 
 TCA9534 myGPIO;
