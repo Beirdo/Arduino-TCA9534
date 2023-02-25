@@ -18,14 +18,10 @@ or concerns with licensing, please contact techsupport@sparkfun.com.
 Distributed as-is; no warranty is given.
 ******************************************************************************/
 
-#pragma once
+#ifndef __TCA9534_GPIO_h_
+#define __TCA9534_GPIO_h_
 
-#if (ARDUINO >= 100)
-#include "Arduino.h"
-#else
-#include "WProgram.h"
-#endif
-
+#include <Arduino.h>
 #include <Wire.h>
 
 //The 7-bit I2C address of the TCA9534
@@ -75,3 +71,5 @@ private:
 	uint8_t _deviceAddress;
 	TwoWire *_i2cPort;
 };
+
+#endif
