@@ -36,11 +36,11 @@ Distributed as-is; no warranty is given.
 #define REGISTER_INVERSION						0x02
 #define REGISTER_CONFIGURATION        	 		0X03
 
-#define GPIO_OUT								false
-#define GPIO_IN									true
+#define TCA9534_GPIO_OUT								false
+#define TCA9534_GPIO_IN									true
 
-#define INVERT									true
-#define NO_INVERT								false
+#define TCA9534_INVERT									true
+#define TCA9534_NO_INVERT								false
 
 class TCA9534
 {
